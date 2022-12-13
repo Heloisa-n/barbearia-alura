@@ -251,7 +251,7 @@ td, th {
     margin: 2em auto;
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 896px) { 
     .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produto {
         width: auto;
     }
@@ -288,7 +288,51 @@ td, th {
 
     .enviar {
         width: 65%;
-        margin-left: 55px;
+        
     }
+
+@media (min-width: 896px) and (orientation: landscape) {
+    .principal {
+        padding: 1em 1em;
+    }
+
+    .mapa {
+        padding: 1em 0em;
+        
+    }
+
+    .mapa p {
+        margin-bottom: 10px;
+    }
+
+    .mapa-conteudo {
+        margin: 3em 3em;
+    }
+
+    .beneficios {
+        padding: 0 0 2em 0;
+    }      
+    
+    .lista-beneficios {
+        margin: 0 1em;
+        width: 30%;
+    }
+  
+    .imagem-beneficios {
+        width: 40%;
+    }
+    
+    .video {
+        max-width: 70%;
+        margin: 3em 10em;
+    }
+
+    .caixa {
+        display: block;
+        text-align: center;
+    }
+
 }
 
+
+}
