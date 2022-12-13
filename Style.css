@@ -290,7 +290,5 @@ td, th {
         width: 65%;
         margin-left: 55px;
     }
-
-@media screen and (min-width: 806px) and (orientation: landscape) {
-
 }
+
