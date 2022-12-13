@@ -251,8 +251,8 @@ td, th {
     margin: 2em auto;
 }
 
-@media screen and (max-width: 900px) { 
-    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produto {
+@media screen and (max-width: 844px) { 
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos, .footer {
         width: auto;
     }
     h1 {
@@ -290,8 +290,9 @@ td, th {
         width: 65%;
         
     }
+}
 
-@media (min-width: 840px) and (orientation: landscape) {
+@media (max-width:940px) and (orientation: landscape) {
     .principal {
         padding: 1em 1em;
     }
@@ -324,14 +325,10 @@ td, th {
     
     .video {
         max-width: 70%;
-        margin: 3em 10em;
     }
 
     .caixa {
         display: block;
         text-align: center;
     }
-
-}
-
 }
