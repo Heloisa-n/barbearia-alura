@@ -251,7 +251,7 @@ td, th {
     margin: 2em auto;
 }
 
-@media screen and (max-width: 896px) { 
+@media screen and (max-width: 900px) { 
     .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produto {
         width: auto;
     }
@@ -291,7 +291,7 @@ td, th {
         
     }
 
-@media (min-width: 896px) and (orientation: landscape) {
+@media (min-width: 840px) and (orientation: landscape) {
     .principal {
         padding: 1em 1em;
     }
@@ -333,6 +333,5 @@ td, th {
     }
 
 }
-
 
 }
