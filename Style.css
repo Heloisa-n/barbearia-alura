@@ -251,7 +251,7 @@ td, th {
     margin: 2em auto;
 }
 
-@media screen and (max-width: 844px) { 
+@media screen and (max-width: 900px) { 
     .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos, .footer {
         width: auto;
     }
@@ -268,33 +268,38 @@ td, th {
     }
 
     .produtos {
-       max-width: 414px;
+       max-width: 390px;
        padding: 0 0;
     }
     
     .produtos li {
         display: block;
         width: 320px;
-        margin: 20px 20px 20px 46px;
+        margin: 20px 20px 20px 25px;
     }
 
     textarea {
-        max-width: 350px;
+        max-width: 305px;
     }
 
-    form {
-        margin: 20px 0;
-    }
 
     .enviar {
         width: 65%;
         
     }
+
+    table {
+        margin:20px auto 40px;
+    }
 }
 
 @media (max-width:940px) and (orientation: landscape) {
-    .principal {
+.principal {
         padding: 1em 1em;
+    }
+
+    nav {
+        text-align: center;
     }
 
     .mapa {
@@ -328,7 +333,50 @@ td, th {
     }
 
     .caixa {
+        width: auto;
         display: block;
+        
+    }
+
+    .produtos {
+        display: flex;
+        justify-content: center;
+    }
+
+    .produtos li {
+        width: auto;
+        margin: 0.5em 0.5em;
+    }
+
+    .produtos img {
+        height: 150px;
+        width: 150px;
+        
+    }
+
+    form {
         text-align: center;
+    }
+
+    .input-padrao {
+        width: 25%;
+        margin: 15px auto;
+    }
+
+    textarea {
+        max-width: 305px;
+        margin: 10px 10px;
+    }
+
+    select {
+        font-size: 30px;
+    }
+    .enviar {
+        width: 50%;
+        margin:auto;
+    }
+
+    table {
+        margin: 20px auto 40px
     }
 }
